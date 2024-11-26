@@ -4,11 +4,11 @@ go 1.22.2
 
 require (
 	github.com/cert-manager/cert-manager v1.15.1
+	github.com/navigatore300/netangelsgo v0.0.2
 	github.com/sirupsen/logrus v1.9.3
 	k8s.io/apiextensions-apiserver v0.30.2
 	k8s.io/apimachinery v0.30.2
 	k8s.io/client-go v0.30.2
-	github.com/navigatore300/netangelsgo v0.0.2
 )
 
 require (
@@ -17,6 +17,7 @@ require (
 	github.com/asaskevich/govalidator v0.0.0-20230301143203-a9d515a09cc2 // indirect
 	github.com/beorn7/perks v1.0.1 // indirect
 	github.com/blang/semver/v4 v4.0.0 // indirect
+	github.com/bobesa/go-domain-util v0.0.0-20190911083921-4033b5f7dd89 // indirect
 	github.com/cenkalti/backoff/v4 v4.3.0 // indirect
 	github.com/cespare/xxhash/v2 v2.3.0 // indirect
 	github.com/coreos/go-semver v0.3.1 // indirect

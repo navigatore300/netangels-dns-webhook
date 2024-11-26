@@ -10,7 +10,6 @@ import (
 	"github.com/cert-manager/cert-manager/pkg/acme/webhook/apis/acme/v1alpha1"
 	"github.com/cert-manager/cert-manager/pkg/acme/webhook/cmd"
 
-	//netangelsgo "github.com/navigatore300/simply-com-client"
 	"github.com/navigatore300/netangelsgo"
 	log "github.com/sirupsen/logrus"
 	extapi "k8s.io/apiextensions-apiserver/pkg/apis/apiextensions/v1"
