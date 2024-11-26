@@ -1,0 +1,10 @@
+.idea
+_test
+_out
+oryxBuildBinary
+testdata/netangels-dns-webhook/config.json
+run.json
+settings.json
+
+testdata/netangels-dns-webhook/netangels-credentials.yaml
+apiserver.local.config/certificates

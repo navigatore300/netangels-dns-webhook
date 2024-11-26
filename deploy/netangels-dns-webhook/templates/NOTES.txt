@@ -1,0 +1,2 @@
+To configure read readme file at https://github.com/navigatore300/netangels-webhook
+

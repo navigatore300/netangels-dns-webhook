@@ -1,0 +1,24 @@
+apiVersion: v2
+name: netangels-dns-webhook
+description: A Helm chart for netangels.ru dns01 challenge support for cert-manager. Refer to https://github.com/navigatore300/netangels-dns-webhook for documentation.
+type: application
+
+# This is the chart version. This version number should be incremented each time you make changes
+# to the chart and its templates, including the app version.
+# Versions are expected to follow Semantic Versioning (https://semver.org/)
+version: 0.0.1
+
+# This is the version number of the application being deployed. This version number should be
+# incremented each time you make changes to the application. Versions are not expected to
+# follow Semantic Versioning. They should reflect the version the application is using.
+# It is recommended to use it with quotes.
+appVersion: '0.0.1'
+
+icon: "https://user-images.githubusercontent.com/51089137/195098737-fc66a30f-6174-45ed-b995-3f2689dafd2e.png"
+home: "https://navigatore300.github.io/netangels-dns-webhook/README.md"
+sources:
+  - https://github.com/navigatore300/netangels-dns-webhook
+maintainers:
+  - name: navigatore300
+    email: navigatore300@gmail.com
+    url: https://github.com/navigatore300
