@@ -7,14 +7,14 @@
 # This group name should be **unique**, hence using your own company's domain
 # here is recommended.
 groupName: com.github.navigatore300.cert-manager-netangels-webhook
-logLevel: INFO
+logLevel: DEBUG
 
 certManager:
   namespace: cert-manager
   serviceAccountName: cert-manager
 
 image:
-  repository: ghcr.io/navigetore300/netangels-dns-webhook
+  repository: ghcr.io/navigatore300/netangels-dns-webhook
   tag: v0.0.1
   pullPolicy: IfNotPresent
 

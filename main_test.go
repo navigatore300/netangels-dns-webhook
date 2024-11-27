@@ -11,7 +11,7 @@ import (
 )
 
 var (
-	zone = os.Getenv("Europe/Moscow")
+	zone = os.Getenv("TEST_ZONE_NAME")
 )
 
 func TestRunsSuite(t *testing.T) {

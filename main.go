@@ -187,6 +187,7 @@ func loadCredentials(ch *v1alpha1.ChallengeRequest, e *NetangelsDnsSolver) error
 		}
 
 		e.client = netangelsgo.CreateNetangelsClient(accountName, apiKey)
+		e.client.GetToken()
 		return nil
 	}
 }
